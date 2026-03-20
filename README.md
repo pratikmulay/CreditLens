@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 The Problem
+##  The Problem
 
 Banks reject **80% of SME loan applications** because small businesses lack structured credit history. Traditional credit scoring models require years of financial records that most SMEs simply don't have.
 
@@ -23,7 +23,7 @@ Banks reject **80% of SME loan applications** because small businesses lack stru
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 Business Description + Financial Text + Live News
@@ -69,7 +69,7 @@ Business Description + Financial Text + Live News
 
 ---
 
-## 🎯 Key Engineering Decisions
+##  Key Engineering Decisions
 
 | Decision | Rationale |
 |----------|-----------|
@@ -81,7 +81,7 @@ Business Description + Financial Text + Live News
 
 ---
 
-## 📊 Output — Structured Credit Brief
+##  Output — Structured Credit Brief
 
 ```json
 {
@@ -107,7 +107,7 @@ Business Description + Financial Text + Live News
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -124,16 +124,16 @@ Business Description + Financial Text + Live News
 
 ---
 
-## ⚡ Performance
+##  Performance
 
-- 🕐 **Sub-2 second** credit assessment end-to-end
-- 📚 **32,000+** SME profiles in ChromaDB knowledge base
-- 🔍 **12+** financial entity types extracted per assessment
-- 🐳 **One-command** deployment via Docker
+-  **Sub-2 second** credit assessment end-to-end
+-  **32,000+** SME profiles in ChromaDB knowledge base
+-  **12+** financial entity types extracted per assessment
+-  **One-command** deployment via Docker
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # 1. Clone and setup
@@ -164,7 +164,7 @@ Visit `http://localhost:8501`
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 CreditLens/
@@ -186,7 +186,7 @@ CreditLens/
 
 ---
 
-## 🔌 API Reference
+##  API Reference
 
 ```http
 POST /analyze
@@ -207,7 +207,7 @@ GET  /similar?text=...     → Top 5 similar company profiles
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 ```bash
 # .env.example
@@ -216,14 +216,6 @@ NEWS_API_KEY=your_newsapi_key    # https://newsapi.org (free tier)
 ```
 
 ---
-
-## 👤 Author
-
-**[Pratik Mulay]**
-3rd Year B.Tech | Computer Science
-
----
-
 <div align="center">
 
 *Built to demonstrate production-grade ML system design — not just model usage.*
