@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏦 CreditLens
+#  CreditLens
 ### SME Credit Risk Assessment via NLP Pipeline
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
@@ -219,10 +219,8 @@ NEWS_API_KEY=your_newsapi_key    # https://newsapi.org (free tier)
 
 ## 👤 Author
 
-**[Your Name]**
+**[Pratik Mulay]**
 3rd Year B.Tech | Computer Science
-📧 your.email@example.com
-🔗 [LinkedIn](https://linkedin.com) | [Portfolio](https://yourportfolio.com)
 
 ---
 
