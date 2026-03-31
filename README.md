@@ -22,7 +22,7 @@ Banks reject **80% of SME loan applications** because small businesses lack stru
 **CreditLens solves this** by extracting credit signals from what SMEs *do* have — business descriptions, financial statements, and news articles — and converting them into a structured, actionable risk brief in under 2 seconds.
 
 ---
-
+  
 ##  System Architecture
 
 ```
